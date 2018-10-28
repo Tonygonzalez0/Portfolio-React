@@ -1,0 +1,50 @@
+hr {
+    width: 30%;
+    margin: 30px auto;
+    size: 4px;
+    border: 1px solid #2874A1;
+}
+
+.project--container__style {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+    .project--title__style {
+        font-size: 2.5rem;
+        margin: 8%;
+        text-align: center;
+        color: #424242;
+    }
+
+    .image--container__style {
+        max-width: 85%;
+        margin: 18% auto;
+
+        .project--img__style {
+            max-width: 85%;
+            box-shadow: 2px 6px 8px gray;
+        }
+    
+        .img--text__style {
+            margin: 10% auto;
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+
+        .img--link__style {
+            color: #30c5e5;
+            padding: 5% 20%;
+            border: 1px solid #30c5e5;
+            text-decoration: none;
+            font-weight: 300;
+            width: 100%;
+            font-size: 1rem;
+            border-radius: 8px;
+
+            &:hover {
+                background: #30c4e525;
+            }
+        }
+    }
+}

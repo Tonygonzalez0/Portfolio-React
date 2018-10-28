@@ -1,0 +1,45 @@
+.main--hero__style {
+    margin-top: 108px;
+    background: #2874A1;
+
+    .main--text__style {
+        padding-top: 15px;
+        font-size: 4rem;
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
+    .sub--text__style {
+        text-align: center;
+        margin-top: 8%;
+        font-size: 1.1rem;
+        color:white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+    }
+
+    .hero--img__style {
+        max-width: 90%;
+        margin: 5%;
+    }
+
+    .main-icon__style {
+        text-align: center;
+        padding: 20px 0;
+        
+        i {
+            color: white;
+            font-size: 2rem;
+            margin: 0 3%;
+            border-radius: 50%;
+            border:2px solid white;
+            padding: 3%;
+            
+            &:hover {
+                color:gray;
+            }
+        }
+    }
+}

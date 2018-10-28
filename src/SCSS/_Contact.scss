@@ -1,0 +1,81 @@
+.contact--container__style {
+    padding-top: 1px;
+    background: #3d56ad;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+    .main--text__style {
+        font-size: 2.5rem;
+        margin: 8%;
+    }
+
+    .form--container__style {
+        display: block;
+        font-size: 1.3rem;
+        color: black;
+        background: white;
+        width: 85%;
+        margin: 0 auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px black;
+        padding: 1px;
+
+        label {
+            display: block;
+            padding: 5% 0;
+            color: #424242;
+        }
+
+        input {
+            border:.5px solid #d8d8d89f;
+            padding: 4%;
+            border-radius: 5px;
+            width: 70%;
+        }
+
+        .submit--button__style{
+            display: block;
+            margin: 8% auto;
+            border:.5px solid #2874A1;
+            color: #2874A1;
+            background: white;
+            padding: 4%;
+            width: 78%;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+
+    .email--card__style {
+        background: #2874A1;
+        margin: 0 auto;
+        width: 68%;
+        padding: 8%;
+        margin-top: 8%;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px black;
+        
+        .fa-envelope {
+            font-size: 2.5rem;
+            margin-bottom: 6%;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            margin-bottom: 6%;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: .8rem;
+            font-weight: 300;
+
+            &:hover {
+                color: gray;
+            }
+        }
+    }
+}
