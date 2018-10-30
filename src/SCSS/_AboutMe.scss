@@ -25,8 +25,57 @@
             font-weight: 200;
             line-height: 28px;
             margin-top: 30px;
-            font-size: .85rem;
+            font-size: 1rem;
             padding-bottom: 30px;
         }
+    }
 }
+
+@media screen and (min-width:768px){
+    .about--container__style{
+        padding: 3px 0;
+
+        .about--title__style {
+            font-size: 3rem;
+        }
+
+        .seconday--container__style {
+            display: flex;
+            align-items: center;
+    
+            .about--img__style {
+                width: 40%;
+                height: 330px;
+                box-shadow: 2px 2px 2px black;
+                border-radius: 8px;
+                margin-right: 40px;
+            }
+
+            .about--text__style {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+    .about--container__style{
+
+        .about--title__style {
+            font-size: 3.5rem;
+        }
+
+        .seconday--container__style {
+    
+            .about--img__style {
+                width: 40%;
+                height: 500px;
+            }
+
+            .about--text__style {
+                font-size: 1.5rem;
+                line-height: 35px;
+            }
+        }
+    }
 }

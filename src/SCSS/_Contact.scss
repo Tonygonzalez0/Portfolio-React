@@ -79,3 +79,35 @@
         }
     }
 }
+
+@media screen and (min-width:768px){
+    .contact--container__style {
+        .form--container__style {
+            width: 45%;
+        }
+
+        .email--card__style {
+            width: 40%;
+            padding: 3%;
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+    .contact--container__style {
+        .form--email__container {
+            display: flex;
+            align-items: center;
+            padding-bottom: 30px;
+
+            .form--container__style {
+                width: 35%;
+            }
+
+            .email--card__style {
+                width: 30%;
+                padding: 2%;
+            }
+        }
+    }
+}

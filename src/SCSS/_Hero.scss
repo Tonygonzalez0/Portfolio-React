@@ -20,9 +20,12 @@
         font-weight: 300;
     }
 
-    .hero--img__style {
-        max-width: 90%;
-        margin: 5%;
+    .hero--img__container {
+
+        .hero--img__style {
+            max-width: 90%;
+            margin: 5%;
+        }
     }
 
     .main-icon__style {
@@ -38,7 +41,55 @@
             padding: 3%;
             
             &:hover {
-                color:gray;
+                color:#b3b2b2;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+    .main--hero__style {
+        margin: 0;
+        padding-top: 150px;
+
+        .main--text__style {
+            font-size: 5rem;
+            color: white;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+        }
+
+        .sub--text__style {
+            margin-top: 3%;
+        }
+
+        .hero--img__container {
+            margin: 0 auto;
+            text-align: center;
+        
+            .hero--img__style {
+                max-width: 40%;
+                margin: 2.5%;
+            }
+        }
+
+        .main-icon__style {
+            text-align: center;
+            padding: 15px 0;
+            
+            i {
+                color: white;
+                font-size: 2rem;
+                margin: 0 1.5%;
+                border-radius: 50%;
+                border:2px solid white;
+                padding: 1%;
+                
+                &:hover {
+                    color:#b3b2b2;
+                    border:2px solid #b3b2b2;
+                }
             }
         }
     }
