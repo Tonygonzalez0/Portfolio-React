@@ -21,7 +21,7 @@ class App extends Component {
 }
 
   componentDidMount(){
-    fetch('http://api.jsonbin.io/b/5bcf763fadf9f5652a63d8b8/21', {
+    fetch('http://api.jsonbin.io/b/5bcf763fadf9f5652a63d8b8/28', {
     headers: {
         mode: 'cors',
         "Content-type": "application/json",
@@ -48,14 +48,14 @@ class App extends Component {
 
   handletoggleNavMenu () {
     if(this.state.toggleNavMenuStatus === true){
-      this.setState({toggleNavMenuStatus : false })
+      this.setState({toggleNavMenuStatus : false });
     }else if (this.state.toggleNavMenuStatus === false){
       this.setState({toggleNavMenuStatus : true })
     }
 }
   render() {
     return (
-      <div>
+      <div id="start-tag">
         <NavBar
         handletoggleNavMenu = {this.handletoggleNavMenu}
         handleNavScroll = {this.handleNavScroll}

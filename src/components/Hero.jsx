@@ -11,7 +11,7 @@ const Hero = () =>{
                 <img src={require("../Assets/img-tony.jpg")} alt="Tony Gonzalez" className="hero--img__style"/>
             </div>
 
-            <div className="main-icon__style" id="project--tag">
+            <div className="main-icon__style" id="project-tag">
                 <a href="https://github.com/Tonygonzalez0" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a> 
                 <a href="https://www.linkedin.com/in/tony-gonzalez-275323168/" target="_blank" rel="noopener noreferrer"> <i className="fab fa-linkedin-in"></i> </a> 
             </div>
