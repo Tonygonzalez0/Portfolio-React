@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () =>{
     return(
-        <div className="contact--container__style">
+        <div className="contact--container__style" id="contact-tag">
             <hr/>
             <h2 className="main--text__style">Get In Touch</h2>
 

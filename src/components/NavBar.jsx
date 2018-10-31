@@ -16,9 +16,9 @@ const NavBar = (props) =>{
                     <ul className="desktop--items__stlye">
                         <a href="/"><img src={require("../Assets/Tonys_Logo_TW.png")} alt="main-logo" className="desktop--img__style"/></a> 
                         <li ><a href="#project--tag" className="desktop--link__style">Projects</a></li>
-                        <li ><a href="/" className="desktop--link__style">About Me</a></li>
-                        <li ><a href="/" className="desktop--link__style">Skills</a></li>
-                        <li ><a href="/" className="desktop--link__style">Contact Me</a></li>
+                        <li ><a href="#about-tag" className="desktop--link__style">About Me</a></li>
+                        <li ><a href="#skill-tag" className="desktop--link__style">Skills</a></li>
+                        <li ><a href="#contact-tag" className="desktop--link__style">Contact Me</a></li>
                     </ul>
                 </nav>
 
@@ -29,9 +29,9 @@ const NavBar = (props) =>{
                         <ul className="main--items__style">
                             <span className="close--stlye" onClick={()=>props.handletoggleNavMenu()}>&times;</span>
                             <li ><a href="#project--tag" className="mobile--link__style">Projects</a></li>
-                            <li ><a href="/" className="mobile--link__style">About Me</a></li>
-                            <li ><a href="/" className="mobile--link__style">Skills</a></li>
-                            <li ><a href="/" className="mobile--link__style">Contact Me</a></li>
+                            <li ><a href="#about-tag" className="mobile--link__style">About Me</a></li>
+                            <li ><a href="#skill-tag" className="mobile--link__style">Skills</a></li>
+                            <li ><a href="#contact-tag" className="mobile--link__style">Contact Me</a></li>
                         </ul>
                         }
                 </nav>

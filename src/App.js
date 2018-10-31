@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import NavBar from './components/NavBar';
-import Hero from './components/Hero';
+import NavBar from './components/NavBar.jsx';
+import Hero from './components/Hero.jsx';
 import Projects from './components/Projects.jsx';
 
 import './CSS/Styles.css';
@@ -21,7 +21,7 @@ class App extends Component {
 }
 
   componentDidMount(){
-    fetch('http://api.jsonbin.io/b/5bcf763fadf9f5652a63d8b8/11', {
+    fetch('http://api.jsonbin.io/b/5bcf763fadf9f5652a63d8b8/21', {
     headers: {
         mode: 'cors',
         "Content-type": "application/json",

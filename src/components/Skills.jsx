@@ -15,7 +15,7 @@ const Skills = (props) =>{
     })
 
     return(
-        <div className="skills--container__style">
+        <div className="skills--container__style" id="skill-tag">
             <hr/>
             <h2 className="main--text__style">My Skills</h2>
             <div className="row--skills__container">

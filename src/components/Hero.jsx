@@ -5,7 +5,7 @@ const Hero = () =>{
     return(
         <div className="main--hero__style">
             <h1 className="main--text__style">Tony G</h1>
-            <p className="sub--text__style">Web Developer | | Junior Developer</p>
+            <p className="sub--text__style">Junior Developer</p>
 
             <div className="hero--img__container">
                 <img src={require("../Assets/img-tony.jpg")} alt="Tony Gonzalez" className="hero--img__style"/>
